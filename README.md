@@ -12,7 +12,6 @@ Usage:
     # Modify path to point to your chromedriver.exe location.
     chromedriver_path = '..\chromedriver.exe'
     
-    
     ls = np.arange(1990180400, 1990180500, 10)
 
     data_dict = range_stat_msg_crdict(ls, chromedriver_path)
