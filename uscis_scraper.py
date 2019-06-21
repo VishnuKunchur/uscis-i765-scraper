@@ -56,9 +56,10 @@ def stat_msg_extract(driver):
 """
 EXECUTE CODE FROM HERE:
 """
-def range_stat_msg_crdict(ls):
+def range_stat_msg_crdict(ls, chromedriver_path):
     """
     ls : A range of 10-digit numbers for which status and message is requested.
+    chromedriver_path : The path to chromedriver.exe 
     """
 
     data_dict = {}
@@ -68,7 +69,7 @@ def range_stat_msg_crdict(ls):
 
     for idx, rec_num in enumerate(inp_range):
         if (idx == 0) | (sess == 0) :
-            driver = driver_init()
+            driver = driver_init(chromedriver_path)
             sess = 1
             pass
         driver = driver_response(driver, rec_num)
