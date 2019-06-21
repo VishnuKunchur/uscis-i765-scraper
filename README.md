@@ -1,8 +1,8 @@
 # OPT Application Analysis 
 
-1. Selenium Web Scraping: Custom functions to scrape status and message for a receipt number of interest.
+1. Selenium Web Scraping: 
 
-Enter a list of 10-digit receipt numbers to get current status and full USCIS message for each "YSC" prefixed receipt number. 
+uscis_scraper: Contains Custom functions to scrape status and message for a receipt number of interest. Enter a list of 10-digit receipt numbers to get current status and full USCIS message for each "YSC" prefixed receipt number. 
 
 Usage:
 
