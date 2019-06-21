@@ -7,8 +7,8 @@ Enter a list of 10-digit receipt numbers to get current status and full USCIS me
 Usage:
 
     from uscis_scraper import range_stat_msg_crdict
-
     import numpy as np
+    
     ls = np.arange(1990180400, 1990180500, 10)
 
     data_dict = range_stat_msg_crdict(ls)
