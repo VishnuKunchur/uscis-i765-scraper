@@ -2,7 +2,7 @@
 
 1. Selenium Web Scraping: 
 
-uscis_scraper: Contains custom functions to scrape current application status and message for a receipt number of interest. Enter a list of 10-digit receipt numbers to get current status and full USCIS message for each "YSC" prefixed receipt number. 
+`uscis_scraper`: Contains custom functions to scrape current application status and message for a receipt number of interest. Enter a list of 10-digit receipt numbers to get current status and full USCIS message for each "YSC" prefixed receipt number. 
 
 Example usage:
 
