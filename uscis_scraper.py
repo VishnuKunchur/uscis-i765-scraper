@@ -7,11 +7,15 @@ from datetime import datetime
 import pandas as pd
 import numpy as np
 
+## chromedriver is used for scraping. Make sure chromedriver.exe is installed. Ensure compatibility between Chrome browser version and chromedriver.exe.
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 
-def driver_init():
-    driver = webdriver.Chrome(r'C:\Users\Vishnu\Drivers\chromedriver.exe', options = chrome_options)
+def driver_init(chromedriver_path):
+    """
+    chromedriver_path: Enter path to chromedriver.exe as a string.
+    """
+    driver = webdriver.Chrome(chromedriver_path, options = chrome_options)
     USCIS_WEBPAGE = 'http://egov.uscis.gov/casestatus'
     # Simulating USCIS Webpage Access:
     driver.get(USCIS_WEBPAGE)
