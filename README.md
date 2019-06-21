@@ -4,7 +4,7 @@
 
 Usage:
 
-    from uscis-scraper import range_stat_msg_crdict
+    from uscis_scraper import range_stat_msg_crdict
 
     import numpy as np
     ls = np.arange(1990180400, 1990180500, 10)
